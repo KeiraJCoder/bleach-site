@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Josefin+Sans&family=Kanit:wght@800&family=Press+Start+2P&family=Rampart+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Josefin+Sans&family=Press+Start+2P&family=Rampart+One&family=Tangerine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&family=Shippori+Antique+B1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Shalimar&family=Shippori+Antique+B1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;   
+}
+
+body {
+    background-image: url("rukia.jpeg");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    font-size: 35px;
+    background-image: url("backg.jpeg");
+    resize: auto;
+    border: rgb(217, 255, 3);
+    border-style: solid;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    padding: 0px 0px 90px 0px;
+    align-items: center;   
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.navbar a {
+    color: rgb(0, 244, 244);
+    text-decoration:none;
+}
+
+.navbar a:hover {
+    color: hotpink;
+}
+
+h1 {
+    display:inline-flex;
+    border: darkblue;
+    margin:80px;
+    flex-wrap: wrap;
+    border: darkblue;
+    border-style: groove;
+    color: rgb(0, 0, 0);
+    position:sticky;
+    font-size: 60px;
+    font-family: 'Londrina Shadow', cursive;
+    justify-content: center;
+    background-color: rgb(255, 230, 0);
+    border-radius: 10px;
+    padding:10px;
+}
+
+h2 {
+    display: inline-flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 230, 0);
+    font-family: 'Londrina Shadow', cursive;
+    align-items: center;
+    font-size: 50px;
+}
+
+p {
+    display: inline-flex;
+    color: rgb(70, 219, 219); 
+    font-family: 'Inria Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border: honeydew;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+img {
+    max-width:40%;
+}
+
+video {
+    max-width:70%;   
+}
+
+i {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: auto;
+    font-size: 10px;
+    color: rgb(255, 230, 8);
+}
+
+.caps{
+    size:100%;
+}
+a {
+    color: rgb(255, 230, 0);
+}
+
+ol {
+    display: block;
+    color: rgb(249, 19, 180); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border: honeydew;
+    border-style: groove;
+}
+
+.dubbed {
+    font-size: 500%;
+    background-repeat: no-repeat;
+    color:rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 50%;
+}
+
+.link1 {
+    font-size: 40px;
+    flex-wrap: wrap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    color: rgb(175, 52, 52);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.649);
+}
+
+.link2{
+    display:flex;
+    font-size: 40px;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(33, 212, 71);
+    background-color: rgba(0, 0, 0, 0.443);
+    border-radius: 10px;
+}
+
+.links {
+    display: inline-flex;
+    border: rgb(0, 0, 0);
+    border-style: double;
+    font-size: 60px;
+    background-color: rgb(255, 255, 0);
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.links a {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(51, 219, 32);
+}
+
+.links a:hover{
+    color: rgb(0, 60, 255);
+}
